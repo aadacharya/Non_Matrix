@@ -1,0 +1,109 @@
+.essential_title{
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 2rem;
+}
+.essential_main{
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  justify-content: space-around;
+}
+.essential_main .courses{
+  display: flex;
+  flex-direction: column;
+}
+.courses img{
+  height: 120px;
+  width: 214px;
+  margin-bottom: 0.5rem;
+}
+.courses .course_details{
+  display: flex;
+  width: 214px;
+  font-weight: bold;
+  align-items: center;
+}
+.course_details img {
+  height: 24px;
+  width: 24px;
+  margin-right: 0.5rem;
+}
+.courses .enroll{
+        background-color: lightgreen;
+        color: black;
+        border: none;
+        border-radius: 20px;
+        padding: 5px 5px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+}
+
+@media only screen and (max-width: 1070px) {
+  .courses img{
+    height: 101px;
+    width: 180px;
+    margin-bottom: 0.5rem;
+  }
+  .courses .course_details{
+    display: flex;
+    width: 180px;
+    font-weight: bold;
+    align-items: center;
+  }
+  .course_details img {
+    height: 24px;
+    width: 24px;
+    margin-right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .essential_main{
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .essential_main .courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  .courses img{
+    height: 128px;
+    width: 228px;
+    margin-bottom: 0.5rem;
+  }
+  .courses .course_details{
+    display: flex;
+    width: 228px;
+    font-weight: bold;
+    align-items: center;
+  }
+  .course_details img {
+    height: 24px;
+    width: 24px;
+    margin-right: 0.5rem;
+  }
+  .courses .enroll{
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    width: 228px;
+}
+}

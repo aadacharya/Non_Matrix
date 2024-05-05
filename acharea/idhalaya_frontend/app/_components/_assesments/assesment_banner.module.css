@@ -1,0 +1,63 @@
+.assesment_title{
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  .assesment_main{
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+  }
+
+  .assesment_main .assement_main_content{
+    font-weight: bold;
+  }
+.assement_main_content .assesment_main_content_header{
+    font-size: xx-large;
+    font-variant: small-caps;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+  .assement_main_content .assesment_details{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+
+  .assesment_details img{
+    height: 24px;
+    width: 24px;
+    margin-right: 0.5rem;
+  }
+
+  .assement_main_content .asses_yourself{
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 707px) {
+    .assesment_main{
+        display: flex;
+        padding: 1rem;
+        background-color: white;
+        color: black;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+}
