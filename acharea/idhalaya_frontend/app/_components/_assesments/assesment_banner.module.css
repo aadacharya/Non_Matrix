@@ -39,9 +39,9 @@
   }
 
   .assement_main_content .asses_yourself{
-    background-color: gold;
+    /* background-color: gold; */
     color: black;
-    border: none;
+    border: solid 3px gold;
     border-radius: 20px;
     padding: 10px 20px;
     font-weight: bold;

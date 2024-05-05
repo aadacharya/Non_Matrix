@@ -92,4 +92,5 @@ const Assesment_Banner = () => {
     </div>
   );
 };
+
 export default Assesment_Banner;
