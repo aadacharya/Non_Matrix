@@ -1,0 +1,124 @@
+.member_main{
+    display: flex;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    /* align-items: center; */
+}
+.member_main .member_left {
+    flex: 1;
+    padding: 2rem;
+}
+.member_main .member_right {
+    flex:1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: cen; */
+}
+.member_main .member_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.member_right .member_right_back{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /* color: gold; */
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.member_right .member_right_quote{
+    font-size: large;
+    text-align: justify;
+}
+
+.member_right .become-member-button {
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+
+  }
+
+  .member_right .member_right_main {
+    background-color: aliceblue;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: spa; */
+  }
+  .member_right_main .member_right_main_quote{
+    font-size: larger;
+    text-align: center;
+  }
+  .member_right_main .member_right_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0.5rem;
+    font-size: large;
+    align-items: center;
+
+  }
+  .member_right_input input {
+    width: 70%;
+    margin-left: 2rem;
+    padding: 1rem;
+    border-radius: 7px;
+    padding: 10px 20px;
+    
+  }
+  .member_right .member_right_information {
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        font-size: small;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        text-align: center;
+  }
+  .member_right .member_right_information img{
+    width: 48px;
+    height: 48px;
+  } 
+
+  @media only screen and (max-width: 1100px) {
+    .member_main .member_left {
+     display: none;
+    }    
+    .member_right .member_right_quote{
+        text-align: center;
+    }
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .member_main .member_left {
+     display: none;
+    }    
+    .member_right .member_right_quote{
+        display: none;
+    }
+    .member_right .member_right_information {
+        flex-direction: column;
+  }
+  .member_right_main .member_right_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 0.5rem;
+    font-size: large;
+    align-items: center;
+
+  } 
+  }

@@ -1,25 +1,34 @@
+"use client"
 import React from 'react'
 import styles from "./footer.module.css"
 import Link from 'next/link'
+
+const openCrispChat = () => {
+  if (typeof window !== 'undefined') {
+    (window).$crisp.push(['do', 'chat:open']);
+    (window).$crisp.push(["do", "message:send", ["text", "Hello there! I need Help."]]);
+    (window).$crisp.push(["do", "message:show", ["text", "I am Glad to Help you. Please tell us more about your concern"]]);
+  }
+};
 
 const Footer = () => {
   return (
     <div className={styles.footer_main}>
       <div>
         <div> <Link href="/home">Home </Link></div>
-        <div> <Link href="/about">About US</Link> </div>
-        <div> <Link href="/">Membership</Link></div>
-        <div> <Link href="/">Courses</Link></div>
+        <div> <Link href="/about">About Us</Link> </div>
+        <div> <Link href="/member">Membership</Link></div>
+        <div> <Link href="/courses">Courses</Link></div>
         <div> <Link href="/">Assesments</Link></div>
         <div> <Link href="/faqs">FAQs</Link></div>
         <div> <Link href="/blog">Blogs</Link></div>
       </div>
       <div>
         <div> <Link href="/contact">Contact Us</Link></div>
-        <div> <Link href="/mission">Mission</Link></div>
-        <div> <Link href="/vison">Vision</Link></div>
-        <div> <Link href="/">Support</Link></div>
-        <div> <Link href="/">Authors</Link></div>
+        <div> <Link href="/about#mission">Mission</Link></div>
+        <div> <Link href="/about#vision">Vision</Link></div>
+        <div onClick={openCrispChat}> <Link href="/contact">Support</Link></div>
+        <div> <Link href="/authors">Authors</Link></div>
       </div>
       <div>
         <div><Link href="/parents">Parents</Link></div>
@@ -33,7 +42,7 @@ const Footer = () => {
         <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="twitterx--v1"/>
         <img width="48" height="48" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/>
       </div>
-        <img width="48" height="48" src="logo.png"/>
+        <img width="48" height="48" src="/logo.png"/>
       </div>
 
     </div>

@@ -1,0 +1,131 @@
+.course_main {
+  background-color: white;
+  color: black;
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* height: 100vh; */
+  padding: 1rem;
+}
+.left {
+  display: flex;
+  max-width: 70%;
+  flex-direction: column;
+}
+.left video {
+  border-radius: 20px;
+}
+.left h1 {
+  font-weight: bold;
+  font-size: large;
+  padding: 1rem;
+  /* padding-top: 0rem; */
+}
+.left h3 {
+    display: none;
+    /* padding-top: 0rem; */
+  }
+.left p {
+  padding: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  text-align: justify;
+}
+.right {
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  background-color: rgba(9, 217, 249, 0.3);
+  width: 400px;
+  margin-left: 1rem;
+  flex-direction: column;
+  flex: none;
+}
+.right .enroll{
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.right h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+  color: purple;
+  margin-bottom: 1rem;
+}
+.right h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+    font-weight: bold;
+  font-size: large;
+}
+.right h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+      font-weight: bold;
+    font-size: large;
+  }
+.right p {
+  text-align: justify;
+}
+@media only screen and (max-width: 900px) {
+  .course_main {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .left {
+    max-width: 100%;
+    order: 2;
+    margin-top: 1rem;
+  }
+  .left h3 {
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    padding: 1rem;
+    /* padding-top: 0rem; */
+  }
+  .right {
+    width: 100%;
+    margin-left: 0rem;
+    flex: none;
+  }
+  .right .enroll{
+      background-color: lightgreen;
+      color: black;
+      border: none;
+      border-radius: 20px;
+      padding: 5px 5px;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+  }
+  
+  .right h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    color: purple;
+    margin-bottom: 1rem;
+  }
+  .right h2 {
+    display: none;
+  }
+  .right h3 {
+    display: none;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+        font-weight: bold;
+      font-size: large;
+    }
+  .right p {
+    display: none;
+  }}

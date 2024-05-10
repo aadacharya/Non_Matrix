@@ -1,4 +1,7 @@
 .footer_main{
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
     background-color: lightyellow;
     color: black;
     font-weight: bold;
@@ -16,6 +19,9 @@
     width: 32px;
     /* padding: 1rem; */
     margin-bottom: 1rem;
+}
+.footer_main div{
+    h
 }
 @media only screen and (max-width: 550px) { 
     .footer_main{

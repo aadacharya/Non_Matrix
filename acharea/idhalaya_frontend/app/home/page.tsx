@@ -9,13 +9,12 @@ export default function Home() {
   return (
     <div >
       <div>
-        {/* Code for home page main screen */}
         <Header/>
          <Tagline/>
         <Essential_Courses/> 
         <Assesment_Banner/>
       </div>
-      <Crispchat/>
+      {/* <Crispchat/> */}
       <Footer/>
     </div>
   );

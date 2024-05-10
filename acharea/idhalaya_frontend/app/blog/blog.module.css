@@ -1,0 +1,39 @@
+.blog_main{
+    display: flex;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+}
+.blog_header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    padding-bottom: 0rem;
+}
+.blog_header_title{
+    font-size: xxx-large;
+    font-weight: bold;
+    background: linear-gradient(45deg, #af0283, #06f61e); /* Adjust gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Hide original text color */
+}
+.blog_header_details{
+    text-align: center;
+    font-size: x-large;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    width: 900px;
+}
+
+.blog{
+    padding: 5rem;
+    /* display: flex; */
+}
+.blog_title{
+    padding: 2rem;
+    font-size: large;
+    font-weight: bold;
+    border: solid 1px gray;
+    border-radius: 20px;
+}

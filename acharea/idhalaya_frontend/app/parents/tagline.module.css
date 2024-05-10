@@ -1,0 +1,151 @@
+.tagline_main{
+    display: flex;
+    padding: 0rem;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    
+}
+.tagline_main .left{
+    flex:1;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tagline_main .right{
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: auto;
+
+}
+.tagline .right img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.tagline_main .left .tagline{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.tagline_main .left .about_data{
+    padding-top: 2rem;
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+.tagline_main .points{
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.points img{
+    height: 64px;
+    width: 64px;
+}
+
+.tagline_main .graphics{
+    display: flex;
+    font-weight: bold;
+    
+}
+
+.left .become-member-button {
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .points img{
+        height: 32px;
+        width: 32px;
+    }
+    .tagline_main .points{
+        font-size: small;
+    }
+    .tagline_main .left .about_data{
+        display: none;
+    }
+    .tagline_main .left .tagline{
+        font-size: larger;
+        
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .tagline_main {
+        display: flex;
+        padding: 1rem;
+        font-weight: bold;
+        background-color: white;
+        justify-content: none;
+        align-items: none;
+        width: 100%;
+        color: black;
+    }
+    
+    .tagline_main .left {
+        flex: 1;
+        padding: 0rem;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tagline_main .right {
+        display: none; /* Hide the .right div */
+    }
+    
+    .tagline_main .left .tagline {
+        font-size: normal;
+        text-align: center;
+    }
+    
+    .tagline_main .left .about_data {
+        display: none;
+    }
+    
+    .tagline_main .points {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: small;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .points img {
+        height: 32px;
+        width: 32px;
+    }
+    
+    .left .become-member-button {
+        background-color: gold;
+        color: black;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+    }
+}

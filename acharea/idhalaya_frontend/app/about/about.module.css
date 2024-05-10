@@ -1,0 +1,187 @@
+.aboutmain{
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tagline{
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(45deg, #af0283, #06f61e); /* Adjust gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Hide original text color */
+    /* max-width: 600px; */
+}
+.tagline_details{
+    font-size: x-large;
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 2rem;
+}
+.member{
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    width: 350px;
+    color: black;
+    font-size: large;
+  }
+  .aboutmain img{
+    padding:3rem;
+    max-width: 900px;
+  }
+  .about_outer{
+    background-color: gold;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .about_inner{
+    flex: 1;
+    background-color: black;
+    border-radius: 20px;
+    border: solid 5px white;
+    color: white;
+    padding: 3rem;
+    font-size: large;
+    font-weight: bold;
+  }
+  .about_inner p{
+    padding: 2rem;
+    
+  }
+  .right{
+    flex: 1;
+    background-color: black;
+    border-radius: 20px;
+    border: solid 5px white;
+    color: white;
+    padding: 3rem;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+.vision, .mission {
+    flex: 1;
+    border: solid 5px gold;
+    border-radius: 20px;
+
+}
+.vision h1 {
+    font-size: xx-large;
+    padding: 2rem;
+    text-align: center;
+}
+.vision p {
+    font-size: large;
+    padding: 2rem;
+    text-align: center;
+}
+.mission h1 {
+    font-size: xx-large;
+    padding: 2rem;
+    text-align: center;
+}
+.mission p {
+    font-size: large;
+    padding: 2rem;
+    text-align: center;
+}
+.objectives {
+    padding: 1rem;
+}
+
+.objectives h1 {
+    font-size: xx-large;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.objectives p {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1224px) {
+    .tagline{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        
+    }
+    .tagline_details{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .about_outer{
+        flex-direction: column;
+      }
+}
+@media only screen and (max-width: 900px) {
+    .tagline{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: x-large;
+        
+    }
+    .tagline_details{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: medium;
+    }
+    .about_inner{
+        padding: 1rem;
+        font-size: medium;
+        font-weight: normal;
+      }
+      .about_inner p{
+        padding: 0.5rem;
+        
+      }
+      .right{
+        padding: 1rem;
+        font-size: medium;
+        font-weight: normal;
+        display: flex;
+        flex-direction: column;
+      }
+    .vision, .mission {
+        flex: 1;
+        border: solid 5px gold;
+        border-radius: 20px;
+    
+    }
+    .vision h1 {
+        font-size: x-large;
+        padding: 0.5rem;
+    }
+    .vision p {
+        font-size: large;
+        padding: 0.5rem;
+    }
+    .mission h1 {
+        font-size: x-large;
+        padding: 0.5rem;
+    }
+    .mission p {
+        font-size: large;
+        padding: 0.5rem;
+    }
+}

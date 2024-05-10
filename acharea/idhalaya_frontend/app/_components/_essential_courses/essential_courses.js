@@ -33,8 +33,8 @@ const Essential_Courses = () => {
         <Course title="Handwriting"  author="Naresh J"  price="200 NRP" duration="30 Min"/>
         <Course title="Handwriting"  author="Naresh J"  price="200 NRP" duration="30 Min"/>
         <Course title="Handwriting"  author="Naresh J"  price="200 NRP" duration="30 Min"/>
-        <Course title="Handwriting"  author="Naresh J"  price="200 NRP" duration="30 Min"/>
-        <Course title="Handwriting"  author="Naresh J"  price="200 NRP" duration="30 Min"/>
+        {/* <Course title="Handwriting"  author="Naresh J"  price="200 NRP" duration="30 Min"/>
+        <Course title="Handwriting"  author="Naresh J"  price="200 NRP" duration="30 Min"/> */}
             </div>
       </div>
   )

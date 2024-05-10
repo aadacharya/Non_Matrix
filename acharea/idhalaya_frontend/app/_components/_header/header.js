@@ -2,26 +2,28 @@
 import React from "react";
 import styles from "./header.module.css";
 import Link from "next/link";
+// import {useRouter} from "next/navigation";
 
 export const Header = () => {
+  // const router = useRouter();
   return (
     <div className={styles.header_main}>
-      <img src="logo.png" alt="Acharea" />
+      <Link href="/home"><img src="/logo.png" alt="Acharea" /></Link>
       <div className={styles["content"]}>
-        <Link href="/">Parents</Link>
+        <Link href="/parents">Parents</Link>
       </div>
       <div className={styles["content"]}>
-        <Link href="/">Students</Link>
+        <Link href="/students">Students</Link>
       </div>
       <div className={styles["content"]}>
-        <Link href="/">Teachers</Link>
+        <Link href="/teachers">Teachers</Link>
       </div>
       <div className={styles["content"]}>
-        <Link href="/">Schools</Link>
+        <Link href="/schools">Schools</Link>
       </div>
       <div className={styles["buttons-container"]}>
-        <button className={styles["sign-in-button"]}>Sign In</button>
-        <button className={styles["become-member-button"]}>Be a Member</button>
+        <div className={styles["sign-in-button"]}> <Link href="/signin">Sign In</Link> </div>
+        <div className={styles["become-member-button"]}> <Link href="/member">Be A Member</Link> </div>
       </div>
     </div>
   );

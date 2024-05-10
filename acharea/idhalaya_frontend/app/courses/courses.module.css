@@ -1,0 +1,66 @@
+.coursesMain{
+    background-color: white;
+    color: black;
+}
+.parentsCourses, .studentsCourses, .teachersCourses, .schoolsCourses {
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.horizontalSlider{
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: row;
+}
+.searchBar{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.searchBar img {
+    width: 54px;
+    height: 54px;
+
+}
+.searchBar input{
+    width: 100%;
+    padding: 1rem;
+    border: solid 1px gray;
+    border-radius: 9999px;
+}
+
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .courses img{
+    height: 120px;
+    width: 214px;
+    margin-bottom: 0.5rem;
+  }
+  .courses .course_details{
+    display: flex;
+    width: 214px;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+  }
+  .course_details img {
+    height: 24px;
+    width: 24px;
+    margin-right: 0.5rem;
+  }
+  .courses .enroll{
+          background-color: lightgreen;
+          color: black;
+          border: none;
+          border-radius: 20px;
+          padding: 5px 5px;
+          font-weight: normal;
+          cursor: pointer;
+          text-align: center;
+  }
+  

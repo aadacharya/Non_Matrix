@@ -1,0 +1,16 @@
+.parents_main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+.parents_main .parents_main_tagline {
+  display: flex;
+}
+.parents_main .parents_main_assesment {
+  display: flex;
+}
+.parents_main .parents_main_courses {
+  display: flex;
+}

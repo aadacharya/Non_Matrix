@@ -30,7 +30,7 @@ const Tagline = () => {
             <div>Smarter Mindset</div>
           </div>
         </div>
-        <div className={styles["become-member-button"]}> <Link href = "/">Get Started With Your Leaning Journey</Link> </div>
+        <div className={styles["become-member-button"]}> <Link href = "/member">Get Started With Your Leaning Journey</Link> </div>
       </div>
       <div className={styles["right"]}>
         <img src="graphics.png" alt="Acharea" />
