@@ -19,6 +19,7 @@ export default function Home() {
             <div>Go Back</div>
           </Link>
           <div className={styles["member_right_quote"]}>
+          &quot;Education is the key to unlock the golden door of freedom.&quot;
             George Washington Carver
           </div>
           <div className={styles["member_right_main"]}>

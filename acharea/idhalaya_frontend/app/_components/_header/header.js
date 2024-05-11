@@ -28,7 +28,7 @@ export const Header = () => {
       <div className={styles["buttons-container"]}>
         <div className={styles["sign-in-button"]}>
           {" "}
-          <Link href="/signin">Sign In</Link>{" "}
+          <Link href="/member">Sign In</Link>{" "}
         </div>
         <div className={styles["become-member-button"]}>
           {" "}
