@@ -3,7 +3,6 @@ import Header from "../_components/_header/header";
 import Footer from "../_components/_footer/footer";
 import styles from "./courses.module.css";
 import Link from "next/link";
-import { IoSearchOutline } from "react-icons/io5";
 import Image from "next/image";
 
 const Courses_Details = ({ params }) => {
