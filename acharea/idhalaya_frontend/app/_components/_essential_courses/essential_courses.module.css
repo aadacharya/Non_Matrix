@@ -18,8 +18,6 @@
   flex-direction: column;
 }
 .courses img{
-  height: 120px;
-  width: 214px;
   margin-bottom: 0.5rem;
 }
 .courses .course_details{
@@ -29,8 +27,6 @@
   align-items: center;
 }
 .course_details img {
-  height: 24px;
-  width: 24px;
   margin-right: 0.5rem;
 }
 .courses .enroll{
@@ -45,22 +41,22 @@
 }
 
 @media only screen and (max-width: 1070px) {
-  .courses img{
+  /* .courses img{
     height: 101px;
     width: 180px;
     margin-bottom: 0.5rem;
-  }
+  } */
   .courses .course_details{
     display: flex;
     width: 180px;
     font-weight: bold;
     align-items: center;
   }
-  .course_details img {
+  /* .course_details img {
     height: 24px;
     width: 24px;
     margin-right: 0.5rem;
-  }
+  } */
 }
 
 @media only screen and (max-width: 900px) {
@@ -79,22 +75,22 @@
     align-items: center;
     padding: 2rem;
   }
-  .courses img{
+  /* .courses img{
     height: 128px;
     width: 228px;
     margin-bottom: 0.5rem;
-  }
+  } */
   .courses .course_details{
     display: flex;
     width: 228px;
     font-weight: bold;
     align-items: center;
   }
-  .course_details img {
+  /* .course_details img {
     height: 24px;
     width: 24px;
     margin-right: 0.5rem;
-  }
+  } */
   .courses .enroll{
     background-color: lightgreen;
     color: black;

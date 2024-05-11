@@ -1,32 +1,28 @@
 import Footer from "../_components/_footer/footer";
 import styles from "./member.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
       <div className={styles.member_main}>
         <div className={styles["member_left"]}>
-          <img src="/member.png" />
+          <Image width={640} height={640} src="/member.png" alt="Member"/>
         </div>
         <div className={styles["member_right"]}>
           <Link href="/home" className={styles["member_right_back"]}>
-            <img
-              width="13"
-              height="13"
+            <Image width={32} height={32}
               src="https://img.icons8.com/metro/26/back.png"
               alt="back"
             />
             <div>Go Back</div>
           </Link>
           <div className={styles["member_right_quote"]}>
-            {" "}
-            "Education is the key to unlock the golden door of freedom." <br />{" "}
             George Washington Carver
           </div>
           <div className={styles["member_right_main"]}>
             <div className={styles["member_right_main_quote"]}>
-              {" "}
               Unlock your Future Today
             </div>
             <div className={styles["member_right_input"]}>
@@ -51,15 +47,15 @@ export default function Home() {
           </div>
           <div className={styles["member_right_information"]}>
             <div className={styles["member_right_information"]}>
-              <img src="https://img.icons8.com/stickers/100/people-working-together.png" alt="people-working-together"/>
+              <Image width={64} height={64} src="https://img.icons8.com/stickers/100/people-working-together.png" alt="people-working-together"/>
               <div>2000+ Learners Enrolled</div>
             </div>
             <div className={styles["member_right_information"]}>
-            <img width="100" height="100" src="https://img.icons8.com/stickers/100/tuition.png" alt="tuition"/>
+            <Image width={64} height={64} src="https://img.icons8.com/stickers/100/tuition.png" alt="tuition"/>
               <div>7 Exceptional Authors</div>
             </div>
             <div className={styles["member_right_information"]}>
-            <img width="100" height="100" src="https://img.icons8.com/stickers/100/course-assign.png" alt="course-assign"/>
+            <Image width={64} height={64} src="https://img.icons8.com/stickers/100/course-assign.png" alt="course-assign"/>
               <div>20+ Skill Courses Available</div>
             </div>
           </div>

@@ -3,6 +3,7 @@ import styles from "./faqs.module.css";
 import Header from "../_components/_header/header";
 import Footer from "../_components/_footer/footer";
 import questions from "./faqs"
+import Image from "next/image";
 
 const Faqs = () => {
   return (
@@ -20,12 +21,12 @@ const Faqs = () => {
               </div>
             </div>
             <div className={styles.rightColumn}>
-              <img src="Graphics.png" alt="" />
+            <Image width={640} height={640} src="/Graphics.png" alt="" />
             </div>
           </div>
             <div className={styles.faqs}>
                 {Object.entries(questions).map(([key,value],index) => (
-                    <div className={styles.each_faq}>
+                    <div className={styles.each_faq} key={index}>
                         <div className={styles.questions}>{key}</div>
                         <div className={styles.answers}>{value}</div>
                     </div>

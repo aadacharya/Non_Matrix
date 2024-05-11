@@ -4,6 +4,7 @@ import styles from "./authors.module.css";
 import { authors_list } from "./authors_meta";
 import Header from "../_components/_header/header";
 import Footer from "../_components/_footer/footer";
+import Image from "next/image";
 
 const Gen_Authors_Meta = () => {
   const [selectedName, setSelectedName] = useState(authors_list[0].first_name);
@@ -30,7 +31,7 @@ const Gen_Authors_Meta = () => {
       </div>
       <div className={styles.author_main}>
         <div className={styles.leftcontent}>
-          <img src="member.png" />
+        <Image width="4800" height="4800" src="member.png" alt="graphics"/>
         </div>
         <div className={styles.rightcontent}>
           <div className={styles["name"]}>{selectedItem.first_name} {selectedItem.last_name} </div>
@@ -38,7 +39,7 @@ const Gen_Authors_Meta = () => {
           <div className={styles["affiliation"]}> 
           <div>Affiliations</div> 
             {selectedItem.affiliations.map((item,index) => (
-              <li>{item}</li>
+              <li key={index}>{item}</li>
             ))}
              </div>
           <div className={styles["about"]}> <div>About</div>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Parents = () => {
+const Teachers = () => {
   return (
-    <div>Parents</div>
+    <div>Teachers</div>
   )
 }
 
-export default Parents
+export default Teachers

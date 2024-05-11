@@ -3,6 +3,7 @@ import styles from "./about.module.css";
 import Header from "../_components/_header/header";
 import Footer from "../_components/_footer/footer";
 import Link from "next/link";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
         <Link href="/member">
           <div className={styles.member}>Try Today</div>
         </Link>
-        <img src="/graphics.png" />
+        <Image width="4800" height="4800" src="/graphics.png" alt='Graphics'/>
         <div className={styles.about_outer}>
           <div className={styles.about_inner}>
             <p>
@@ -40,7 +41,7 @@ const About = () => {
               With eDHYALAYA, learners embark on a journey towards comprehensive
               growth and all-round progress. Our goal is to empower individuals
               with the knowledge, skills, and mindset necessary to thrive in
-              today's dynamic world. Whether you seek academic excellence,
+              today&apos;s dynamic world. Whether you seek academic excellence,
               career advancement, or personal fulfillment, our diverse range of
               courses and personalized approach ensure that you receive the
               support and resources needed to reach your full potential. Join us

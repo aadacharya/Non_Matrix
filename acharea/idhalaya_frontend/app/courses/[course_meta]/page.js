@@ -17,8 +17,7 @@ const Course_Meta = ({ params }) => {
           <h3>Cost : 200 NPR</h3>
           <h1> About the course </h1>
           <p>
-            {" "}
-            The course "Introduction to Data Science" provides an essential
+            The course &quot;Introduction to Data Science&quot; provides an essential
             foundation for individuals interested in exploring the
             interdisciplinary field of data science. Through a comprehensive
             curriculum, participants will gain practical knowledge and skills
@@ -29,8 +28,7 @@ const Course_Meta = ({ params }) => {
           </p>
           <h1> What will you learn </h1>
           <p>
-            {" "}
-            The course "Introduction to Data Science" provides an essential
+            The course &quot;Introduction to Data Science&quot; provides an essential
             foundation for individuals interested in exploring the
             interdisciplinary field of data science. Through a comprehensive
             curriculum, participants will gain practical knowledge and skills
@@ -41,8 +39,7 @@ const Course_Meta = ({ params }) => {
           </p>
           <h1> FAQs </h1>
           <p>
-            {" "}
-            The course "Introduction to Data Science" provides an essential
+            The course &quot;Introduction to Data Science&quot; provides an essential
             foundation for individuals interested in exploring the
             interdisciplinary field of data science. Through a comprehensive
             curriculum, participants will gain practical knowledge and skills
@@ -52,8 +49,7 @@ const Course_Meta = ({ params }) => {
             data-driven decision-making.
           </p>
           <p>
-            {" "}
-            The course "Introduction to Data Science" provides an essential
+            The course &quot;Introduction to Data Science&quot; provides an essential
             foundation for individuals interested in exploring the
             interdisciplinary field of data science. Through a comprehensive
             curriculum, participants will gain practical knowledge and skills
@@ -63,8 +59,7 @@ const Course_Meta = ({ params }) => {
             data-driven decision-making.
           </p>
           <p>
-            {" "}
-            The course "Introduction to Data Science" provides an essential
+            The course &quot;Introduction to Data Science&quot; provides an essential
             foundation for individuals interested in exploring the
             interdisciplinary field of data science. Through a comprehensive
             curriculum, participants will gain practical knowledge and skills
@@ -74,8 +69,7 @@ const Course_Meta = ({ params }) => {
             data-driven decision-making.
           </p>
           <p>
-            {" "}
-            The course "Introduction to Data Science" provides an essential
+            The course &quot;Introduction to Data Science&quot; provides an essential
             foundation for individuals interested in exploring the
             interdisciplinary field of data science. Through a comprehensive
             curriculum, participants will gain practical knowledge and skills
@@ -91,8 +85,7 @@ const Course_Meta = ({ params }) => {
           <h3>Cost : 200 NPR</h3>
           <h2>Requirement</h2>
           <p>
-            {" "}
-            The course "Introduction to Data Science" equips learners with
+            The course &quot;Introduction to Data Science&quot; equips learners with
             essential skills for effective data analysis. Topics include data
             preprocessing, visualization, statistical analysis, machine
             learning, and decision-making. Through hands-on projects,
@@ -101,8 +94,7 @@ const Course_Meta = ({ params }) => {
           </p>
           <h2>How is This Course For</h2>
           <p>
-            {" "}
-            The course "Introduction to Data Science" equips learners with
+            The course &quot;Introduction to Data Science&quot; equips learners with
             essential skills for effective data analysis. Topics include data
             preprocessing, visualization, statistical analysis, machine
             learning, and decision-making. Through hands-on projects,
@@ -111,8 +103,7 @@ const Course_Meta = ({ params }) => {
           </p>
           <h2>What will you learn</h2>
           <p>
-            {" "}
-            The course "Introduction to Data Science" equips learners with
+            The course &quot;Introduction to Data Science&quot; equips learners with
             essential skills for effective data analysis. Topics include data
             preprocessing, visualization, statistical analysis, machine
             learning, and decision-making. Through hands-on projects,
@@ -121,8 +112,7 @@ const Course_Meta = ({ params }) => {
           </p>
           <h2>About the Educator</h2>
           <p>
-            {" "}
-            The course "Introduction to Data Science" equips learners with
+            The course &quot;Introduction to Data Science&quot; equips learners with
             essential skills for effective data analysis. Topics include data
             preprocessing, visualization, statistical analysis, machine
             learning, and decision-making. Through hands-on projects,
@@ -131,8 +121,7 @@ const Course_Meta = ({ params }) => {
           </p>
           <h2>Testimonial</h2>
           <p>
-            {" "}
-            The course "Introduction to Data Science" equips learners with
+            The course &quot;Introduction to Data Science&quot; equips learners with
             essential skills for effective data analysis. Topics include data
             preprocessing, visualization, statistical analysis, machine
             learning, and decision-making. Through hands-on projects,

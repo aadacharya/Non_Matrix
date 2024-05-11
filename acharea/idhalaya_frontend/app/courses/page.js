@@ -4,25 +4,26 @@ import Footer from "../_components/_footer/footer";
 import styles from "./courses.module.css";
 import Link from "next/link";
 import { IoSearchOutline } from "react-icons/io5";
+import Image from "next/image";
 
 const Courses_Details = ({ params }) => {
   return <div>
     <div className={styles.courses}>
-          <img src='graphics.png'/>
+          <Image width={600} height={600} src='/graphics.png' alt="graphics"/>
           <div className={styles.course_details}>
-          <img  src="https://img.icons8.com/ios-glyphs/30/document-header.png" alt="document-header"/>
+          <Image width={64} height={64}  src="https://img.icons8.com/ios-glyphs/30/document-header.png" alt="document-header"/>
             <div >Test</div>
           </div>
           <div className={styles.course_details}>
-          <img src="https://img.icons8.com/ios-filled/50/training.png" alt="training"/>
+          <Image width={64} height={64} src="https://img.icons8.com/ios-filled/50/training.png" alt="training"/>
             <div >Test</div>
           </div>
           <div className={styles.course_details}>
-          <img src="https://img.icons8.com/material-outlined/24/cost.png" alt="cost"/>
+          <Image width={64} height={64} src="https://img.icons8.com/material-outlined/24/cost.png" alt="cost"/>
             <div >Test</div>
           </div>
           <div className={styles.course_details}>
-          <img src="https://img.icons8.com/ios-filled/50/delivery-time.png" alt="delivery-time"/>
+          <Image width={64} height={64} src="https://img.icons8.com/ios-filled/50/delivery-time.png" alt="delivery-time"/>
             <div >Test</div>
           </div>
           <Link href="/courses/testcourse">
@@ -40,7 +41,7 @@ const Courses = () => {
       <div className={styles.coursesMain}>
         <div className={styles.searchBar}>
         <input type="text" placeholder="Search for the available courses"/>
-        <img src="https://img.icons8.com/ios-glyphs/480/search--v1.png" alt="search--v1"/>
+        <Image width={64} height={64} src="https://img.icons8.com/ios-glyphs/480/search--v1.png" alt="search--v1"/>
         </div>
         <div className={styles.parentsCourses}>
           For Parents

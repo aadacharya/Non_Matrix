@@ -16,8 +16,8 @@ const Blogs = () => {
         </div>
         <div className={styles.blog}>
             {Object.entries(blogs).map(([key,value],index) => (
-                <div>
-                    <Link href={"/blog/"+index}>
+                <div key={index}>
+                    <Link href={"/blog/"+index} >
                     <div className={styles.blog_title}>
                             {key}
                         </div>

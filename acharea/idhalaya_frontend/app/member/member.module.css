@@ -112,6 +112,10 @@
     .member_right .member_right_information {
         flex-direction: column;
   }
+  .member_right_main .member_right_main_quote{
+    font-size: medium;
+    text-align: center;
+  }
   .member_right_main .member_right_input{
     display: flex;
     flex-direction: column;
@@ -121,4 +125,12 @@
     align-items: center;
 
   } 
+  .member_right_input input {
+    width: 100%;
+    margin-left: 0rem;
+    padding: 0rem;
+    border-radius: 7px;
+    padding: 10px 20px;
+    
+  }
   }

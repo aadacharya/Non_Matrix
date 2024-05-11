@@ -135,6 +135,10 @@
       }
 }
 @media only screen and (max-width: 900px) {
+    .aboutmain img{
+        padding:3rem;
+        max-width: 400px;
+      }
     .tagline{
         padding-left: 1rem;
         padding-right: 1rem;

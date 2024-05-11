@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./assesment_banner.module.css";
+import Image from "next/image";
 
 const Assesment_Banner = () => {
   return (
@@ -13,14 +14,14 @@ const Assesment_Banner = () => {
             For Parents
           </div>
           <div className={styles["assesment_details"]}>
-            <img
+            <Image width="48" height="48"
               src="https://img.icons8.com/material-outlined/24/cost.png"
               alt="cost"
             />
             <div>NPR 0</div>
           </div>
           <div className={styles["assesment_details"]}>
-            <img
+            <Image width="48" height="48"
               src="https://img.icons8.com/ios-filled/50/delivery-time.png"
               alt="delivery-time"
             />
@@ -33,14 +34,14 @@ const Assesment_Banner = () => {
             For Students
           </div>
           <div className={styles["assesment_details"]}>
-            <img
+            <Image width="48" height="48"
               src="https://img.icons8.com/material-outlined/24/cost.png"
               alt="cost"
             />
             <div>NPR 0</div>
           </div>
           <div className={styles["assesment_details"]}>
-            <img
+            <Image width="48" height="48"
               src="https://img.icons8.com/ios-filled/50/delivery-time.png"
               alt="delivery-time"
             />
@@ -53,14 +54,14 @@ const Assesment_Banner = () => {
             For Teachers
           </div>
           <div className={styles["assesment_details"]}>
-            <img
+            <Image width="48" height="48"
               src="https://img.icons8.com/material-outlined/24/cost.png"
               alt="cost"
             />
             <div>NPR 0</div>
           </div>
           <div className={styles["assesment_details"]}>
-            <img
+            <Image width="48" height="48"
               src="https://img.icons8.com/ios-filled/50/delivery-time.png"
               alt="delivery-time"
             />
@@ -73,14 +74,14 @@ const Assesment_Banner = () => {
             For Schools
           </div>
           <div className={styles["assesment_details"]}>
-            <img
+            <Image width="48" height="48"
               src="https://img.icons8.com/material-outlined/24/cost.png"
               alt="cost"
             />
             <div>NPR 0</div>
           </div>
           <div className={styles["assesment_details"]}>
-            <img
+            <Image width="48" height="48"
               src="https://img.icons8.com/ios-filled/50/delivery-time.png"
               alt="delivery-time"
             />

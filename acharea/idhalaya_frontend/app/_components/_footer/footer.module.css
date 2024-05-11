@@ -20,9 +20,6 @@
     /* padding: 1rem; */
     margin-bottom: 1rem;
 }
-.footer_main div{
-    h
-}
 @media only screen and (max-width: 550px) { 
     .footer_main{
         display: flex;

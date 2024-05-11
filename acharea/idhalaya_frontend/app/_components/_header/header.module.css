@@ -7,13 +7,14 @@
     justify-content: space-between;
     border-bottom: 0.5px solid black;
     color: black;
+    position: relative;
   }
   
-  .header_main img {
-    width: auto; 
-    height: 50px;
-    /* height: auto; */
-  }
+.header_main .logo{
+  width: auto;  
+  height: 20px; 
+}
+
 
   .header_main .content{
     font-weight: bold;
@@ -61,12 +62,7 @@
       align-items: center;
       justify-content: space-between;
     }
-    
-    .header_main img {
-      width: auto;
-      height: 15px;
-    }
-    .header_main .content{
+      .header_main .content{
       display: none;
     }
     .header_main .buttons-container {
